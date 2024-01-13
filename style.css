@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#main{
+    height: 100vh;
+    width: 100vw;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#screen{
+    height: 80vh;
+    width: 30vw;
+    border-radius: 20px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    position: absolute;
+}
+
+#searchbar{
+    position: absolute;
+    top: 7%;
+    left: 10%;
+}
+
+#searchbar #search{
+    height: 50px;
+    width: 290px;
+    border-radius: 50px;
+    position: relative;
+    outline: none;
+    border: 1px;
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+#search::placeholder{
+    color: #111;
+}
+
+#button{
+    margin-left: 15px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px;
+}
+
+#image{
+    position: relative;
+    top: 16%;
+    left: 30%;
+}
+
+#image img{
+    height: 175px;
+    width: 175px;
+}
+
+#temp{
+    padding: 0px;
+    position: relative;
+    margin-top: 55px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 70px;
+}
+
+#city{
+    margin-top: -15px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-weight: 400;
+    font-size: 45px;
+}
+
+#humidity{
+    position: absolute;
+    left: -3%;
+}
+
+#humidity img{
+    margin-top: 55px;
+    margin-left: 58px;
+    height: 37px;
+    width: 47px;
+}
+
+#humidity p{
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    position: absolute;
+    top: 39%;
+    left: 106%;
+}
+
+#humidity p::after{
+    content: "Humidity";
+    position: absolute;
+    font-size: 20px;
+    top: 80%;
+    left: 0%;
+}
+
+#wind-speed img{
+    position: absolute;
+    height: 47px;
+    width: 52px;
+    top: 14%;
+    left: 3%;
+}
+
+#wind-speed{
+    width: 100%;
+    position: absolute;
+    left: 55%;
+    top: 80%;
+}
+
+#wind-speed p{
+    position: absolute;
+    color: #fff;
+    font-size: 21px;
+    margin-top: -7px;
+    left: 16%;
+    top: 22%;
+}
+
